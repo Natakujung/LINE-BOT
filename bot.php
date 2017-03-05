@@ -16,7 +16,13 @@ if (!is_null($events['events'])) {
 			// Get replyToken
 			$replyToken = $event['replyToken'];
 			
-			$text = $text."....//..ไม่สำออยนะ...จากบราวนี้";
+			//$text = $text."....//..ไม่สำออยนะ...จากบราวนี้";
+			
+			if ($text == "ทำไรอยู่")
+			{
+				$text = "ดูผี ฟัง the Shock";
+			}
+			
 			// Build message to reply back
 			$messages = [
 				'type' => 'text',
