@@ -48,7 +48,7 @@ function MatStr($FullStr,$searchStr,$ReturnText)
 function BotChat($MsgRec)
 {
 
-$returnMsg = '?';
+$returnMsg = '';
 
 $xml = simplexml_load_file("DataMsg.xml");
 foreach ($xml->children() as $children) {
@@ -56,20 +56,25 @@ foreach ($xml->children() as $children) {
     $SearchStr = $children->SearchStr;
 	$ReturnMsg = $children->ReturnMsg;
 
-	echo $SearchStr;
-	echo $ReturnMsg;
+	//echo $SearchStr;
+	//echo $ReturnMsg;
 
-	if ($returnMsg == '?')
-	{
-		$returnMsg = MatStr((string) $MsgRec, (string) $SearchStr,(string) $ReturnMsg); 
+	//if ($returnMsg == '')
+	//{
+	//	$returnMsg = MatStr((string) $MsgRec, (string) $SearchStr,(string) $ReturnMsg); 
 		
+	//}
+	//echo "returnMsg=".(string) $SearchStr;
+	if ($returnMsg == ''){
+	$returnMsg = MatStr((string) $MsgRec, (string) $SearchStr,(string) $ReturnMsg); 
 	}
+	//echo "returnMsg=".$returnMsg;
 }
 	return $returnMsg; 
 }
 
 
 
-print "Nat = ".BotChat("ชื่ออะไร");
+//print "Nat = ".BotChat("กินข้าวยัง");
 
 ?>
