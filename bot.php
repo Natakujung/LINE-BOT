@@ -17,11 +17,13 @@ if (!is_null($events['events'])) {
 			$replyToken = $event['replyToken'];
 			
 			//$text = $text."....//..ไม่สำออยนะ...จากบราวนี้";
+			include("Str.php");
+			$text  = BotChat($text);
 			
-			if ($text == "ทำไรอยู่")
-			{
-				$text = "ดูผี ฟัง the Shock";
-			}
+			//if ($text == "ทำไรอยู่")
+			//{
+			//	$text = "ดูผี ฟัง the Shock";
+			//}
 			
 			// Build message to reply back
 			$messages = [
