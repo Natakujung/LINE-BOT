@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<library>
+<Msg>
+<FullMsg>กินข้าวหรือยัง</FullMsg>
+<SearchStr>กินข้าว</SearchStr>
+<ReturnMsg>กินแล้วจ้า ตัวเองละ</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>ชื่ออะไร</FullMsg>
+<SearchStr>ชื่อ</SearchStr>
+<ReturnMsg>เราชื่อบราวนี้</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>มีเพื่อนไหม</FullMsg>
+<SearchStr>เพื่อน</SearchStr>
+<ReturnMsg>มีเพื่อนชื่อปาร์คคุง เป็นหมีน้อย</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>ชอบกินอะไร</FullMsg>
+<SearchStr>ชอบ</SearchStr>
+<ReturnMsg>ชอบกินปลาแซลมอล</ReturnMsg>
+</Msg>
+</library>
