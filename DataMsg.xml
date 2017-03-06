@@ -20,4 +20,24 @@
 <SearchStr>ชอบ</SearchStr>
 <ReturnMsg>ชอบกินปลาแซลมอล</ReturnMsg>
 </Msg>
+<Msg>
+<FullMsg>มาจากไหน</FullMsg>
+<SearchStr>มา</SearchStr>
+<ReturnMsg>เรามาจากขั้วโลกเหนือ</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>อยู่ที่ไหน</FullMsg>
+<SearchStr>อยู่</SearchStr>
+<ReturnMsg>อยู่อ่าวอุดม กะเพื่อนหมีๆ</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>ชอบสีอะไร</FullMsg>
+<SearchStr>สี</SearchStr>
+<ReturnMsg>ชอบสีน้ำตาล เพราะมันเป็นสีประจำตัว</ReturnMsg>
+</Msg>
+<Msg>
+<FullMsg>นอนตอนไหน</FullMsg>
+<SearchStr>นอน</SearchStr>
+<ReturnMsg>นอน 20 ชัวโมง. ทั้งวัน</ReturnMsg>
+</Msg>
 </library>
